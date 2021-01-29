@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(form-background-1024x683.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+        padding-top:250px;
+}
+
+#E,#P{
+    border-radius: 6px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+}
+#L{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    transition-duration: .5s;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 560;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+}
+#L:hover{
+    background-color:#e52f3c ;
+    transition-duration: .8s;
+}
